@@ -1,0 +1,51 @@
+{
+  "back": "Go back",
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "transactions": "Transactions",
+    "accounts": "Accounts",
+    "investments": "Investments",
+    "credit-cards": "Credit Cards",
+    "loans": "Loans",
+    "services": "Services",
+    "my-privileges": "My Privileges",
+    "settings": "Settings"
+  },
+  "navbar": {
+    "overview": "Overview",
+    "search": "Search for something"
+  },
+  "credit-cards": {
+    "card": {
+      "card-holder": "Card Holder",
+      "balance": "Balance",
+      "valid-thru": "VALID THRU"
+    },
+    "my-cards": "My Card",
+    "see-all": "See All"
+  },
+  "transactions": {
+    "recent": "Recent Transactions",
+    "type-1": "Deposit from my Card",
+    "type-2": "Deposit Paypal",
+    "quick-transfer": "Quick transfer",
+    "write-amount": "Write Amount",
+    "send": "Send",
+    "balance-history": "Balance History"
+  },
+  "settings": {
+    "edit-profile": "Edit Profile",
+    "preferences": "Preferences",
+    "security": "Security",
+    "your-name": "Your Name",
+    "user-name": "User Name",
+    "email": "Email",
+    "password": "Password",
+    "date-of-birth": "Date of Birth",
+    "present-address": "Present Address",
+    "permanent-address": "Permanent Address",
+    "city": "City",
+    "postal-code": "Postal Code",
+    "country": "Country"
+  }
+}

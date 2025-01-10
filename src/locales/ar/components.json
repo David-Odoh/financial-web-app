@@ -1,0 +1,51 @@
+{
+  "back": "ارجع",
+  "sidebar": {
+    "dashboard": "لوحة القيادة",
+    "transactions": "المعاملات",
+    "accounts": "الحسابات",
+    "investments": "الاستثمارات",
+    "credit-cards": "بطاقات الائتمان",
+    "loans": "القروض",
+    "services": "الخدمات",
+    "my-privileges": "امتيازاتي",
+    "settings": "الإعدادات"
+  },
+  "navbar": {
+    "overview": "نظرة عامة",
+    "search": "ابحث عن شيء"
+  },
+  "credit-cards": {
+    "card": {
+      "card-holder": "حامل البطاقة",
+      "balance": "الرصيد",
+      "valid-thru": "صالح حتى"
+    },
+    "my-cards": "بطاقتي",
+    "see-all": "عرض الكل"
+  },
+  "transactions": {
+    "recent": "المعاملات الأخيرة",
+    "type-1": "إيداع من بطاقتي",
+    "type-2": "إيداع باي بال",
+    "quick-transfer": "تحويل سريع",
+    "write-amount": "اكتب المبلغ",
+    "send": "إرسال",
+    "balance-history": "تاريخ الرصيد"
+  },
+  "settings": {
+    "edit-profile": "تعديل الملف الشخصي",
+    "preferences": "التفضيلات",
+    "security": "الأمان",
+    "your-name": "اسمك",
+    "user-name": "اسم المستخدم",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "date-of-birth": "تاريخ الميلاد",
+    "present-address": "العنوان الحالي",
+    "permanent-address": "العنوان الدائم",
+    "city": "المدينة",
+    "postal-code": "الرمز البريدي",
+    "country": "البلد"
+  }
+}

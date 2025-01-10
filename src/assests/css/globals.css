@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-brand-1: #343c6a;
+    --color-brand-2: #718ebf;
+    --color-brand-3: #232323;
+    --color-accent-blue: #396aff;
+    --color-accent-orange: #fc7900;
+    --color-accent-green: #41d4a8;
+    --color-accent-red: #ff4b4a;
+    --color-dark: #ffffff;
+    --color-dark-2: #9ca3af;
+    --color-dark-3: #323743;
+
+    --white-theme-card-border-color: #dfeaf2;
+  }
+  html {
+    @apply bg-body font-body;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html.dark {
+    @apply bg-dark text-white;
+  }
+
+  html,
+  body {
+    @apply antialiased;
+  }
+
+  .dynamic-html h6 {
+    @apply font-medium uppercase;
+  }
+
+  .dynamic-html p {
+    @apply mb-3;
+  }
+
+  .border-card {
+    @apply border-solid border-[.5px] border-[var(--white-theme-card-border-color)] dark:border-none;
+  }
+}
+
+@layer utilities {
+  .text-case-inherit {
+    text-transform: inherit;
+  }
+
+  .letter-space-inherit {
+    letter-spacing: inherit;
+  }
+
+  .word-break-all {
+    word-break: break-all;
+  }
+
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+
+  .animation-delay-500 {
+    animation-delay: 500ms;
+  }
+
+  .animation-delay-700 {
+    animation-delay: 700ms;
+  }
+
+  .text-vertical {
+    writing-mode: tb;
+    text-orientation: upright;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(214, 214, 214);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--color-brand));
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--color-brand));
+}
+
+* {
+  scrollbar-color: color-mix(in oklch, currentColor 35%, transparent)
+    transparent;
+}
+
+/* Custom scrollbar design starts from here */
+.custom-scrollbar::-webkit-scrollbar {
+  @apply hidden w-[5px];
+}
+
+.custom-scrollbar:hover::-webkit-scrollbar {
+  @apply block;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  @apply bg-transparent shadow-none;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  @apply rounded;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* for firefox */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0);
+}
+
+/* simple bar scroll bar style  */
+.simplebar-scrollbar::before {
+  @apply !bg-gray-500;
+}
+
+.recharts-tooltip-wrapper .recharts-default-tooltip {
+  @apply rounded-sm !border-0 !bg-white !px-4 shadow-card dark:!bg-light-dark;
+}
+
+.recharts-tooltip-wrapper .recharts-default-tooltip .recharts-tooltip-item {
+  @apply text-xs uppercase dark:!text-gray-400 lg:text-sm;
+}
+
+.settings-scrollbar {
+  scrollbar-width: none;
+}
+
+.settings-scrollbar::-webkit-scrollbar {
+  @apply hidden;
+}

@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+````markdown
+# Fincial App Web Template
 
-## Getting Started
+## Prerequisites
 
-First, run the development server:
+Before you run the project, make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (>= 16.x)
+- [Yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/) (depending on your preference)
+
+## Setup Instructions
+
+### 1. Clone the Repository
+
+Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/your-username/your-project-name.git
+```
+````
+
+### 2. Install Dependencies
+
+Navigate to the project folder and install the dependencies:
+
+```bash
+cd your-project-name
+npm install
+# OR if you're using Yarn:
+# yarn install
+```
+
+### 3. Add Environment Variables
+
+To enable image uploading functionality, you need to add your **Pinata API keys** to your `.env.local` file.
+
+Create a `.env.local` file in the root of the project (if it doesn’t already exist) and add the following variables:
+
+```env
+NEXT_PUBLIC_PINATA_API_KEY=232323
+NEXT_PUBLIC_PINATA_SECRET_API_KEY=2e234234
+```
+
+Replace the values of `NEXT_PUBLIC_PINATA_API_KEY` and `NEXT_PUBLIC_PINATA_SECRET_API_KEY` with your actual Pinata API keys.
+
+### 4. Run the Project
+
+Once the environment variables are set, you can run the project locally.
+
+For development mode:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# OR if you're using Yarn:
+# yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This will start the development server at `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 5. Image Upload Feature
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The image upload functionality uses Pinata’s API. Ensure that your API keys are correctly added in `.env.local`. If you don’t have a Pinata account, sign up at [Pinata](https://www.pinata.cloud/) and generate the necessary keys.
 
-## Learn More
+### 6. Access the Application
 
-To learn more about Next.js, take a look at the following resources:
+You can now access the application in your browser by navigating to:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+http://localhost:3000
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+3. Make your changes.
+4. Submit a pull request.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+```
+
+```
