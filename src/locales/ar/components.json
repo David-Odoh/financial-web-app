@@ -31,7 +31,9 @@
     "quick-transfer": "تحويل سريع",
     "write-amount": "اكتب المبلغ",
     "send": "إرسال",
-    "balance-history": "تاريخ الرصيد"
+    "balance-history": "تاريخ الرصيد",
+    "weekly-activities": "الأنشطة الأسبوعية",
+    "expense-statistics": "إحصائيات المصروفات"
   },
   "settings": {
     "edit-profile": "تعديل الملف الشخصي",

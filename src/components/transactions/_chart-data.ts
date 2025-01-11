@@ -36,3 +36,13 @@ export const BalanceHistoryData = [
     amt: 2500,
   },
 ];
+
+export const ActivitiesChartData = [
+  { days: "Sat", deposit: 4000, withdrawal: 2400 },
+  { days: "Sun", deposit: 7000, withdrawal: 4398 },
+  { days: "Mon", deposit: 2000, withdrawal: 9800 },
+  { days: "Tue", deposit: 2780, withdrawal: 3908 },
+  { days: "Wed", deposit: 8890, withdrawal: 4800 },
+  { days: "Thu", deposit: 2390, withdrawal: 7800 },
+  { days: "Fri", deposit: 3490, withdrawal: 4300 },
+];

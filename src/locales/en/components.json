@@ -31,7 +31,9 @@
     "quick-transfer": "Quick transfer",
     "write-amount": "Write Amount",
     "send": "Send",
-    "balance-history": "Balance History"
+    "balance-history": "Balance History",
+    "weekly-activities": "Weekly Activities",
+    "expense-statistics": "Expense Statistics"
   },
   "settings": {
     "edit-profile": "Edit Profile",

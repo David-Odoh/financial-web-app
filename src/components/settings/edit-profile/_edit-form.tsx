@@ -44,7 +44,7 @@ export default function EditProfileForm() {
 
   return (
     <Form onSubmit={onSubmit} validationSchema={validationSchema}>
-      {(methods) => (
+      {(methods): ReactNode => (
         <>
           <div className="mx-auto w-full py-4 lg:px-8 xl:px-10 2xl:px-0">
             <div className="form-row flex flex-col sm:flex-row gap-0 sm:gap-8 w-full">
